@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "order",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "dishes": {
+      "type": "json"
+    },
+    "amount": {
+      "type": "biginteger"
+    },
+    "token": {
+      "type": "string"
+    },
+    "charge_id": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "user": {
+      "type": "string"
+    }
+  }
+}
